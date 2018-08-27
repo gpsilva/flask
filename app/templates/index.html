@@ -4,6 +4,10 @@
 </head>
 <body>
     <h1>Gilter</h1>
-    <p>Welcome to Gilter</p>
+    {% if user %}
+    <p>Bem vindo ao Gilter, {{ user }}!</p>
+    {% else %}
+    <p>Bem vindo ao Gilter</p>
+    {% endif %}
 </body>
 </html>
