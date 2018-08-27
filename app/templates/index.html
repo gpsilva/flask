@@ -1,6 +1,8 @@
 <html>
 <head>
     <title>Gilter</title>
+    <link rel="stylesheet" href="{{ url_for('static', 
+                filename="css/bootstrap.min.css") }}">
 </head>
 <body>
     <h1>Gilter</h1>
@@ -9,5 +11,8 @@
     {% else %}
     <p>Bem vindo ao Gilter</p>
     {% endif %}
+    <script <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="{{ url_for('static',
+                 filename="js/bootstrap.min.js") }}"></script>
 </body>
 </html>
