@@ -1,3 +1,91 @@
-venv/
-*/__pycache__/
+# Git ignore for Java
+.idea
+*.iml
+Jenkinsfile
+
+# Git ignore for Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+#test reports
+coverage-reports/
+test-reports/
+jacoco*.exec
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+**/test-reports
+
+# Translations
+*.mo
+*.pot
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+#Terraform
+**/ci/deploy/dc/data/.terraform
+**/terraform/terraform.tfstate
+**/terraform/terraform.tfstate.backup
+
+# Vagrant
+.vagrant
+*.log
+
+# Packaging
+*.versionsBackup
+*.deb
+
+# Visual Studio Code
+.vscode/settings.json

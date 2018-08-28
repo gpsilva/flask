@@ -6,5 +6,4 @@ To prepare the environment run:
 
 To start the application run:
  python3 run.py runserver
-
  
